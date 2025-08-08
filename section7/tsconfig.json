@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext", //ts compile js버전
+    "module": "esnext",
+    "outDir": "dist", //compile 결과 파일 dir
+    "strict": true,
+    "moduleDetection": "force", //모든 파일 개별 module설정
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "allowJs": true
+    // "noImplicitAny": false //암시적 any 허용
+  },
+  "include": ["src"] //compile 범위
+}
